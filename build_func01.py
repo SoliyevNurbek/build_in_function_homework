@@ -1,3 +1,4 @@
+from math import *
 def main(number):
     """A integer type variable 'number' is given. Return the absolute value of a "number". 
 
@@ -7,4 +8,7 @@ def main(number):
     Returns:
         int: the absolute value of a "number"
     """
-    return
+    number=abs(number)
+
+    return number
+print(main(-5))
